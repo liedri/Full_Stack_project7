@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    background: url('../img/login_page/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 563px;
+}
+
+.main {
+    display: flex;
+
+    background: url('../img/login_page/blue_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background: red; */
+    height: 563px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.left_div {
+    /* background: green; */
+    width: 50%;
+    display: flex;
+}
+
+.right_div {
+    /* background: blue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* Stack the inner divs vertically */
+    align-items: flex-start;
+    position: relative;
+
+}
+
+.right_top_div {
+    /* background: pink; */
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    align-items: flex-start;
+    padding-top: 10px;
+
+}
+
+#search_bar {
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255,.9);
+    color: gray !important;
+    outline: none;
+    position: absolute; 
+    left: 20%;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.search_icon {
+    position: absolute;
+    margin-top: 17px;
+    font-size: 20px; 
+    left: 345px;
+    color:rgba(0, 182, 178);
+}
+
+#login,
+#logout{
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: rgba(0, 182, 178);
+    color: white;
+    font-weight: 500;
+    outline: none; 
+    position: absolute;
+    right: -30px; 
+    cursor: pointer;
+}
+
+#logout {
+    width: 35%;
+}
+
+.logout_div .user_icon {
+    right: 150px;
+}
+
+.hello-text {
+  color: rgb(50, 50, 50);
+}
+
+.user_icon {
+    position: absolute;
+    right: 120px;
+    margin-top: 10px;
+    font-size: 30px; 
+    color: white;
+
+}
+
+.right_buttom_div {
+    /* background-color: yellow; */
+    width: 100%; /* Take full width */
+    height: 50%;
+    display: flex;
+    padding: 10px; /* Add padding for spacing */
+
+}
+
+.links {
+    background: rgb(50, 50, 50);
+    display: flex;
+    width: 60px;
+    height: 40%;
+    border-radius: 20px;
+    border: none;
+    outline: none; 
+    position: absolute;
+    right: -20px; 
+    flex-direction: column; /* Stack the social media icons vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+.link_icon {
+    margin: 0.7rem 0; /* Adjust spacing between icons */
+    color: white;
+    display: flex;
+    position: relative;
+    /* margin-left: 15px; */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*----------------------------------*/
+.left_div {
+    display: flex;
+    flex-direction: column;
+    /* background: pink; */
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .left_top_div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  .sidebar-icon {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .sidebar-links {
+    position: absolute;
+    background: white;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 150px;
+    z-index: 1;
+  }
+  
+  .sidebar1 {
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 30px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+.navbar p:hover {
+    color: rgb(50, 50, 50);;
+}
+
+.left_buttom_div {
+    /* background: gray; */
+
+}
+
+.text_div {
+    /* background: greenyellow; */
+    margin-top: 70px;
+    padding-left: 30px;
+}
+
+h2 {
+    font-family: "Roboto Condensed";
+    font-size: 150px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: -10px;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .2);
+}
+
+h3 {
+    font-family: "Roboto Condensed";
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.buttons_div {
+    /* background: orange; */
+    display: flex; /* Use flex display */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+#discover_button, 
+#more_button {
+    background: rgba(255, 255, 255, 0.5);
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 8px 30px; /* Increase padding for larger buttons */
+    font-size: 15px; /* Increase font size for larger buttons */
+    font-weight: 600;
+    margin: 0 10px; /* Add some spacing between buttons */
+    cursor: pointer;
+}
+
+#discover_button:hover, 
+#more_button:hover {
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+}
+

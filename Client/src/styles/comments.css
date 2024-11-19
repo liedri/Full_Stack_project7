@@ -1,0 +1,80 @@
+.comment {
+    /* background: blue; */
+    margin-top: 20px;
+    border-top: 1px solid rgb(50, 50, 50);
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.name_and_body {
+    flex: 1;
+    padding-right: 10px;
+    margin-bottom: -15px;
+}
+
+.comment_icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.comment p {
+    color: rgb(50, 50, 50);
+}
+
+.comment .user {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.comment .body {
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.new_comment {
+    display: flex;
+    margin-top: 10px;
+}
+
+.new_comment_input {
+    background: gainsboro;
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    display: flex;
+    width: 90%;
+}
+
+.submit_comment_button {
+    display: flex;
+    width: 10%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit_comment_button,
+.delete_comment_button {
+    color: rgb(50, 50, 50);
+    font-size: 20px;
+    background: transparent;
+    margin-right: 5px;
+    border: none;
+}
+
+.edit_comment_button:hover,
+.delete_comment_button:hover {
+    font-size: 25px;
+    transition:0.2s;
+    cursor: pointer;
+}

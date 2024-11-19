@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile_div {
+    display: flex;
+}
+
+.profile_div .left {
+    /* background: blue; */
+    width: 80%;
+    display: flex;
+    display: block;
+
+}
+
+.left h5 {
+    font-size: 20px;
+    font-weight: 300;
+    /* background: green; */
+}
+
+.left h6 {
+    color: rgb(50, 50, 50);
+}
+
+.user_details {
+    background: rgba(240, 240, 240, 0.9);
+    width: 95%;
+    padding: 30px;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.user_details .details {
+    /* background: pink; */
+    display: block;
+    width: 70%;
+
+}
+
+#edit_details {
+    /* background: blue; */
+    border: none;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+.user_recommendations {
+    background: rgba(240, 240, 240, 0.9);
+    width: 95%;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+#save_details {
+    background: rgb(50, 50, 50);
+    color: white;
+    border-radius: 6px;
+    height: 40px;
+    width: 50px;
+    margin-top: 15px;
+}
+
+#save_details:hover {
+    background: rgba(50, 50, 50, 0.6);
+}
+
+.profile_div .right {
+    width: 20%;
+    display: flex;
+}
+

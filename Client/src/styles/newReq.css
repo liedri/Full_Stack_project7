@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.new_post {
+    background: rgba(255, 255, 255, 0.95);
+    position: fixed; /* Use 'fixed' position to make it appear above all elements */
+    top: 50%; /* Move the top edge to the center of the screen */
+    left: 50%; /* Move the left edge to the center of the screen */
+    transform: translate(-50%, -50%); /* Adjust the position to center the element */
+    z-index: 999; /* Ensure it appears above other elements */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 3px;
+    padding: 20px;
+    width: 700px;
+}
+
+.detail {
+    /* background: blue; */
+    width: 100%;
+}
+
+.detail h4 {
+    /* background: red; */
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.detail h5 {
+    /* background: yellow; */
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.new_req_btn {
+    height: 40px;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background: rgb(50, 50, 50);
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-left: 20px;
+}

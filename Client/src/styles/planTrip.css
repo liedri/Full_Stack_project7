@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plan {
+    width: 100%;
+    padding: 20px;
+}
+
+.plan h3 {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.plan h4 {
+    font-weight: 200;
+}
+
+.details {
+    display: flex;
+}
+
+.details input {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.details .find_btn {
+    height: 30px;
+    background: rgb(50, 50, 50);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.filtered-places {
+    margin: 10px;
+    
+}

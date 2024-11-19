@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login_form_div {
+    background: rgba(255, 255, 255, 0.8);
+    position: fixed; /* Use 'fixed' position to make it appear above all elements */
+    top: 50%; /* Move the top edge to the center of the screen */
+    left: 50%; /* Move the left edge to the center of the screen */
+    transform: translate(-50%, -50%); /* Adjust the position to center the element */
+    z-index: 999; /* Ensure it appears above other elements */
+    display: flex; /* Center its content horizontally and vertically */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+
+}
+
+.close_icon {
+    color: rgb(50, 50, 50);
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -350px;
+    margin-left: -330px;
+}
+
+.close_icon:hover {
+    color: white;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+
+}
+
+.login_form_div h4 {
+    color: rgb(50, 50, 50);
+    font-size: 40px;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+.input {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+}
+
+.login_btn {
+    height: 40px;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background: olive;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.login_btn :hover {
+    background: rgb(53, 53, 1);
+}
+
+.register_link {
+    padding-top: 10px;
+}
+
+.register_link {
+    color: gray;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.register_link:hover {
+    color: rgb(50, 50, 50);
+}
+
+.register_div {
+    display: flex;
+}
+
+.register_div p {
+    margin-right: 10px;
+    color: gray;
+}
+
+.register_div p,
+.register_link {
+    display: flex;
+}
+
+.error {
+    font-size: 10px;
+    background: pink;
+}

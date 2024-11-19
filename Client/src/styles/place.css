@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.place_div {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.all_div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.return_btn {
+    height: 30px;
+    width: 150px;
+    background: rgb(50, 50, 50);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin-top: 20px; /* Add margin-top to center the button */
+    cursor: pointer;
+}
+
+.one_place {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    justify-content: flex-end;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .place-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 30px; /* Cover almost the entire height */
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+
+  }
+
+  .place-overlay h4 {
+    z-index: 999;
+    font-size: 15px;
+    /* position: absolute; */
+    margin: 10px;
+    text-shadow: none;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.place-overlay .name {
+  font-size: 18px;
+  font-weight: 400;
+}
+  
+  .one_place h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .one_place:hover {
+    transform: translateY(-5px);
+  }
+  
+  .one_place:hover .place-overlay {
+    transform: translateY(0);
+  }
+  
+  .one_place:hover h3 {
+    /* transform: translateY(-30px); */
+    visibility: hidden;
+  }
+  
+.place_div p {
+  color: rgb(50, 50, 50);
+}

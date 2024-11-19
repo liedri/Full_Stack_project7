@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+.top_img {
+    background: url("../img/top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.top_title {
+    font-family: "Roboto Condensed";
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: -10px;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    margin-left: 20px;
+    line-height: 0.7; 
+}
+
+.top_img .navbar {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .top_img .navbar a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .top_img .navbar a.manager {
+    background-color: rgb(50, 50, 50);
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .top_img .navbar a.manager:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  

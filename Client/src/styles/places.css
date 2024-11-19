@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.places_div {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.types {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.sea_div,
+.nature_div,
+.hotel_div {
+    background-color: pink;
+    display: flex;
+    width: 200px;
+    height: 280px;
+    margin-right: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    justify-content: flex-end;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.sea_div:hover,
+.nature_div:hover,
+.hotel_div:hover {
+    width: 210px;
+    height: 310px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.photo_img1 {
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.types h3 {
+    z-index: 999;
+    font-size: 40px;
+    position: absolute;
+    margin: 10px;
+}
+
+.explaination {
+    margin-top:40px;
+    margin-left: 20px;
+
+}
+
+.explaination h3 {
+    font-size: 40px;
+    color: rgb(50, 50, 50);
+}
+
+.explaination p {
+    color: rgb(50, 50, 50);
+}

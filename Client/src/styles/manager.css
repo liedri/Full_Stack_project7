@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.manage_div {
+    width: 100%;
+
+}
+
+.users_manage {
+    background: rgba(240, 240, 240, 0.9);
+    width: 95%;
+    padding: 30px;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .user-table th {
+    border: none; 
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 400;
+
+  }
+  
+  .user-table td {
+    border-bottom: 1px solid #ccc; 
+    padding: 8px;
+  }
+  
+  .user-table th, .user-table td {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  .user-table tr {
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+.places_manage {
+    background: rgba(240, 240, 240, 0.9);
+    width: 95%;
+    padding: 30px;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: flex;
+}
+
+.title h4 {
+    display: flex;
+    width: 95%;
+}
+
+.title button {
+    display: flex;
+    background: rgb(50, 50, 50);
+    color: white;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 300;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: -15px;
+
+}
+
+.add-place-form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-right: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    height: 30px;
+}
+
+.save_btn,
+.close_btn {
+    height: 30px;
+    background: rgb(50, 50, 50);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+  
